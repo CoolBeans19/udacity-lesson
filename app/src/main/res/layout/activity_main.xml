@@ -10,12 +10,11 @@
     tools:context="com.example.h205p2.udacitylesson.MainActivity">
 
     <TextView
-        android:text="Happy Birthday!"
-        android:background="@android:color/darker_gray"
+        android:text="Sample Text."
         android:textColor="@android:color/black"
-        android:textSize="12pt"
-        android:gravity="center"
-        android:layout_width="150dp"
-        android:layout_height="75dp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="56sp"/>
+
 
 </RelativeLayout>
