@@ -9,12 +9,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.h205p2.udacitylesson.MainActivity">
 
+    <ImageView
+        android:src="@drawable/all_in"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
     <TextView
         android:text="Sample Text."
         android:textColor="@android:color/black"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="56sp"/>
+        android:gravity="center"
+        android:textSize="56sp"
+        android:id="@+id/textView" />
 
 
 </RelativeLayout>
